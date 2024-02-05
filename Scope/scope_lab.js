@@ -28,3 +28,16 @@ function show() {
     console.log(functionConst);
 }
 show()
+
+function helloworld() {
+    var greetings = "Hello, World!";
+    const num = 4;
+    let year = "2024";
+    console.log(greetings);
+    console.log(num);
+    console.log(year);
+}
+greetings = "Nope";
+num = 3;
+year = "2023";
+helloworld()
